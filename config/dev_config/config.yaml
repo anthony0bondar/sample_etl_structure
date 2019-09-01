@@ -1,0 +1,15 @@
+pg_database:
+  host: 127.0.0.1
+  database: sample_database
+  user: sample_user
+  password: sample_pass
+
+dwh_database:
+  host: 127.0.0.2
+  database: dwh_dev
+  user: sample_user
+  password: sample_pass
+
+logging_level: 'DEBUG'
+
+# ... etc

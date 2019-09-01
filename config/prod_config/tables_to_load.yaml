@@ -1,0 +1,22 @@
+# Possible file, here we list tables that have to be processed
+# Also we can be more specific and list not only tables, but also columns
+
+tables:
+  - core.users
+  - core.clients
+  - core.sales
+  - core.shops
+  - core.locations
+  - core.orders
+
+# Also we can be more specific and list not only tables, but also columns. For example:
+
+core.users:
+  - id
+  - name
+  - surname
+  - type
+  - address1
+  - address2
+  - email
+  - phone
