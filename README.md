@@ -1,4 +1,4 @@
-# Sample ETL project structure
+# Sample ETL Project Structure
 
 ### /config 
 all configuration files, like db connections, server credentials, project configurations etc. Usually in yaml
@@ -16,7 +16,7 @@ all ETL testing, Unit-testing, integration, etc
 database versioning (dwh versioning with Alembic in my case)
 
 ### run.py
-a runner, which accepts parameters and runs specific pipeline or perform specific needs, for example:
+a runner that accepts parameters and runs specific pipeline or perform specific needs, for example:
 
 `python run.py --script=load_sales --env=dev`
 
